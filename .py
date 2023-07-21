@@ -1,8 +1,11 @@
-#versiyon 1
-print("version 1 completed")
+def toplama():
+    try:
+        sayi1 = float(input("Birinci sayıyı girin: "))
+        sayi2 = float(input("İkinci sayıyı girin: "))
+        toplam = sayi1 + sayi2
+        print("Sonuç: {:.2f}".format(toplam))
+    except ValueError:
+        print("Hatalı giriş yaptınız. Lütfen sayıları düzgün bir şekilde girin.")
 
-#versiyon 2
-print("version 2 completed")
-
-#versiyon 3
-print("version 3 completed")
+if __name__ == "__main__":
+    toplama()
