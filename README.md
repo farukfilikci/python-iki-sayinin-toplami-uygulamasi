@@ -1,1 +1,1 @@
-# python-iki-sayinin-toplami-uygulamasi
+# dizi_film_oneri_uygulamasi
