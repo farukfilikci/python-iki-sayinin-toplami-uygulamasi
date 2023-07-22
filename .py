@@ -1,7 +1,7 @@
 def toplama():
     try:
-        sayi1 = float(input("Birinci sayıyı girin: "))
-        sayi2 = float(input("İkinci sayıyı girin: "))
+        sayi1 = float(input("Enter first number: "))
+        sayi2 = float(input("Enter second number: "))
         toplam = sayi1 + sayi2
         print("Sonuç: {:.2f}".format(toplam))
     except ValueError:
